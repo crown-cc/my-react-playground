@@ -8,7 +8,7 @@ function VFor(){
   ])
 
   return (
-    <div class="View-row">
+    <div className="View-row">
       <div> useVFor </div>
       {
         list.map(item => {

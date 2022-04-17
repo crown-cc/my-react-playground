@@ -11,7 +11,7 @@ function Computed() {
   }
 
   return (
-    <div class="View-row">
+    <div className="View-row">
       <div> use computed </div>
       <button onClick={ addNum1 }> addNum1 </button>
       <div>{num1} + {num2} = {num3}</div>

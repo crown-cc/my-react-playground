@@ -7,7 +7,7 @@ function VShow() {
   }
 
   return (
-    <div class="View-row">
+    <div className="View-row">
       <div> useVShow </div>
       <button onClick={toggleShow}>切换</button>
       {
