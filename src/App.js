@@ -1,4 +1,5 @@
-import VIf from './views/vIf';
+// import VIf from './views/vIf';
+import VShow from './views/vShow'
 
 import logo from './logo.svg';
 import './App.css';
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <VIf/>
+        {/* <VIf/> */}
+        <VShow/>
       </header>
     </div>
   );
