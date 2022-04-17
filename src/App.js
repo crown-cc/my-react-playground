@@ -1,9 +1,10 @@
-// import VIf from './views/vIf';
-// import VShow from './views/vShow'
-import VFor from './views/vFor';
-
 import logo from './logo.svg';
 import './App.css';
+
+// import VIf from './views/vIf';
+// import VShow from './views/vShow'
+// import VFor from './views/vFor';
+import Computed from './views/computed';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         {/* <VIf/> */}
         {/* <VShow/> */}
-        <VFor/>
+        {/* <VFor/> */}
+        <Computed></Computed>
       </header>
     </div>
   );
