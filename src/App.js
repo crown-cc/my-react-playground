@@ -6,7 +6,8 @@ import './App.css';
 // import VFor from './views/vFor';
 // import Computed from './views/computed';
 // import Watch from './views/watch'
-import Provide from './views/provide';
+// import Provide from './views/provide';
+import Slot from './views/slot';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         {/* <VFor/> */}
         {/* <Computed></Computed> */}
         {/* <Watch></Watch> */}
-        <Provide></Provide>
+        {/* <Provide></Provide> */}
+        <Slot></Slot>
       </header>
     </div>
   );
