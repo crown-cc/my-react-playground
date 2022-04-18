@@ -4,7 +4,8 @@ import './App.css';
 // import VIf from './views/vIf';
 // import VShow from './views/vShow'
 // import VFor from './views/vFor';
-import Computed from './views/computed';
+// import Computed from './views/computed';
+import Watch from './views/watch'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         {/* <VIf/> */}
         {/* <VShow/> */}
         {/* <VFor/> */}
-        <Computed></Computed>
+        {/* <Computed></Computed> */}
+        <Watch></Watch>
       </header>
     </div>
   );
